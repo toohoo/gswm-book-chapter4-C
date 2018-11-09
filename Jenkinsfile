@@ -6,6 +6,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Hello Shell 0'
+                bat 'cd'
             }
         }
     }
